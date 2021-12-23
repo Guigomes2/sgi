@@ -8,7 +8,7 @@ function App() {
       {/* tela de Login */}
 
       <div>
-        <h1>Login</h1>
+        <h1>Login</h1> <hr></hr>
         <label for="email">Email</label> <br></br>
         <input type="email" id="emailLogin" name="emailLogin" placeholder='Enter your email'></input> <br></br>
         <label for="senha">Senha</label> <br></br>
@@ -96,6 +96,9 @@ function App() {
             <option value="grupo1">Grupo 1</option>
             <option value="grupo2">Grupo 2</option>
             <option value="grupo3">Grupo 3</option>
+
+          <input type="submit" id="cadastrarProduto" value="Cadastrar"></input>
+          <input type="submit" id="cancelarProduto" value="Cancelar"></input>
            
           </select> 
 
@@ -124,7 +127,7 @@ function App() {
 
       <div>
         <div>
-          <h2>Novo fornecedor</h2> {/* Melhorar a pagina de fornecedores */} 
+          <h2>Novo fornecedor</h2> <hr></hr>{/* Melhorar a pagina de fornecedores */} 
 
           <label for="nome">Novo Fornecedor</label> <br></br>
           <input type="text" id="novoFornecedor" name="novoFornecedor"></input> <br></br>
@@ -137,6 +140,9 @@ function App() {
 
           <label for="nome">Quantidade</label> <br></br>  
           <input type="number" id="quantidade" name="quantidade"></input> <br></br>
+
+          <input type="submit" id="cadastrarFornecedor" value="Cadastrar"></input>
+          <input type="submit" id="cancelarFornecedor" value="Cancelar"></input>
         </div>
       </div>
 
