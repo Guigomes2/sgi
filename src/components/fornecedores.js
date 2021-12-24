@@ -1,6 +1,6 @@
 import React from "react";
 
-function fornecedores() {
+function Fornecedores() {
     return (
         <form>
             <div>
@@ -27,4 +27,4 @@ function fornecedores() {
     );
 }
 
-export default fornecedores;
+export default Fornecedores;

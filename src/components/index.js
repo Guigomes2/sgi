@@ -1,6 +1,6 @@
 import React from "react"
 
-function index() {
+function Index() {
     return (
         <form>
             <div>
@@ -17,4 +17,4 @@ function index() {
     );
 }
 
-export default index;
+export default Index;

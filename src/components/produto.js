@@ -1,6 +1,6 @@
 import React from "react";
 
-function produto() {
+function Produto() {
     return (
         <form>
             <div>
@@ -45,4 +45,4 @@ function produto() {
     );
 }
 
-export default produto;
+export default Produto;

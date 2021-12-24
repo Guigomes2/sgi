@@ -1,6 +1,6 @@
 import React from "react";
 
-function cadastro() {
+function Cadastro() {
     return (
         <form>
             <div>
@@ -51,6 +51,8 @@ function cadastro() {
             </div>
         </form>
     );
+
 }
 
-export default cadastro;
+export default Cadastro;
+

@@ -23,14 +23,11 @@ input {
     box-sizing: border-box;
 }
 
-input [type="submit"] {
-    
+input [type="submit"] {    
     padding: 12px 20px;
     margin: 8px 0;
     border: none;
-    border-radius: 5px;
-    
-    
+    border-radius: 5px;       
 }
 
 
@@ -41,41 +38,17 @@ input [type="submit"] {
 }
  
 
-#buttonCadastra {
+#buttonCadastra, #cadastrarProduto, #cadastrarFornecedor {
     background-color: #4CAF50;
     color: white;
     cursor: pointer;
 }
 
-#cadastrarProduto {
-    background-color: #4CAF50;
-    color: white;
-    cursor: pointer;
-}
-
-#cadastrarFornecedor {
-    background-color: #4CAF50;
-    color: white;
-    cursor: pointer;
-}
-
-#buttonCncelar {
+#buttonCncelar, #cancelarProduto, #cancelarFornecedor {
     background-color: #FF0000;
     color: white;
     cursor: pointer;
 }
-
-#cancelarProduto {
-    background-color: #FF0000;
-    color: white;
-    cursor: pointer;
-}
-
-#cancelarFornecedor {
-    background-color: #FF0000;
-    color: white;
-    cursor: pointer;
-} 
 
 select {
     width: 100%;
