@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react';
-import login from './components/views/login/Index';
+import login from './components/views/login/Login';
 
 
 
