@@ -1,20 +1,14 @@
 import './App.css';
-import Index from './components';
-import Cadastro from './components/cadastro'; 
-import Produto from './components/produto';
-import Mapa from './components/mapa';
-import Fornecedores from './components/fornecedores';
+import React from 'react';
+import login from './components/views/login/Index';
+
 
 
 
 function App() {
   return (
     <>
-      <Index />
-      <Cadastro />
-      <Produto />
-      {/* <Mapa /> */}
-      <Fornecedores />
+      
     </>
   );
 }
